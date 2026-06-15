@@ -1,0 +1,18 @@
+Designed and maintained a relational data schema for 500+ employee records with normalized fields and document linkage, enabling sub-second qualification lookups during proposal development
+Led preparation of 3+ RFP/RFQ submissions by aggregating project data from internal systems and engineering organizational chart automation in Microsoft Office, accelerating turnaround on client-facing technical responses
+Architected a 3-table relational database schema (Tasks, Lanes, Milestones) with foreign-key relationships modeling one-to-many project hierarchies, applying normalization and referential integrity to enable structured phase-based tracking
+Automated task sequencing logic and integrated a CSV export pipeline, eliminating manual report generation and enabling self-serve data analysis for project managers
+Designed three-tiered HPC deployment architectures (Good/Better/Best) for on-premises AI infrastructure, evaluating compute, networking, and storage trade-offs across NVIDIA, Cisco, and Dell hardware to deliver scalable workload-matched configurations
+Led technical analysis of distributed data center components including GPU clusters and high-speed interconnects, driving multi-vendor benchmarking that informed $1M+ procurement decisions
+Built a Python chatbot with persistent conversation history, system-prompt personas, response streaming, and structured JSON output via prefilling and stop sequences, deployed to GitHub with secure credential management
+Engineered modular helper functions (add_user_message, add_assistant_message, chat) to abstract Anthropic API interaction logic, enabling rapid iteration across specialist personas with configurable temperature and model parameters
+Engineered an AI agent capable of invoking external Python functions through the Claude tool-use API, debugging production-style issues including stop_sequences edge cases and KeyError exceptions through systematic root-cause analysis
+Defined structured JSON tool schemas with parameter validation and required-field specifications, enabling reliable function dispatch from natural-language inputs across multi-turn conversation flows
+Proficient in Python, Java, JavaScript, SQL, and Bash with experience in object-oriented design, data structures, REST APIs, and Agile SDLC
+Experienced with MySQL, relational database schema design, normalization, and referential integrity for production data systems
+Hands-on with AWS EC2 and S3, distributed systems concepts, and HPC architecture for AI workload deployment
+Skilled in Anthropic Claude API including prompt engineering, tool use and function calling, response streaming, and structured output
+Proficient with Git, GitHub, VS Code, Jupyter, Linux and macOS, and CI/CD workflows
+Completed Master of Information Technology Management with MIS concentration at Illinois Institute of Technology Chicago, GPA 3.6
+Relevant graduate coursework includes Web Application Foundations, Object-Oriented App Development, Big Data Infrastructure, Advanced Topics in Data Management, and ITM Frameworks
+Completed Bachelor of Science in Electronics and Communication Engineering at Osmania University Hyderabad

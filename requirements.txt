@@ -1,0 +1,4 @@
+anthropic
+voyageai
+pinecone
+python-dotenv
