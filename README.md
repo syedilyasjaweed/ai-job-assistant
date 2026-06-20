@@ -20,10 +20,11 @@ An AI-powered tool that helps tailor job applications using a RAG pipeline.
 - Caches results locally for 7 days to avoid redundant API calls
 - Supports `--refresh` flag to force a fresh search
 
-### Phase 3 — Cover Letter Generator (coming soon)
-- Combines Phase 1 bullet matches + Phase 2 company profile
-- Generates a tailored cover letter via Claude
+## Phase 3 — Cover Letter Generator
 
+- Combines Phase 1 bullet matches + Phase 2 company profile
+- Generates a tailored cover letter via Claude (`claude-sonnet-4-6`)
+- Saves output to `data/cover_letters/` (gitignored — contains personal application content)
 ## Setup
 
 pip install -r requirements.txt
@@ -41,6 +42,12 @@ python phase1_matcher.py
 
 # Phase 2 - research a company
 python phase2_company_research.py "Anthropic"
+
+# Phase 3 — generate a tailored cover letter
+python phase3_cover_letter.py --company "Anthropic" --role "AI Engineer" --jd "paste job description here"
+
+# Force a fresh company research lookup
+python phase3_cover_letter.py --company "Anthropic" --role "AI Engineer" --jd "..." --refresh
 
 # Force fresh search (bypass cache)
 python phase2_company_research.py "Anthropic" --refresh
