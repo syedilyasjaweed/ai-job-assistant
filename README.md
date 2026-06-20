@@ -5,7 +5,7 @@ An AI-powered tool that helps tailor job applications using a RAG pipeline.
 ## What It Does
 - Matches your resume bullets to any job description using semantic search
 - Researches companies automatically using Claude's web search
-- (Coming soon) Generates tailored cover letters
+-  Generates tailored cover letters by chaining resume matches + company research through Claude
 
 ## Pipeline Overview
 
